@@ -1,11 +1,14 @@
 {
+  "homepage": "https://sandurijal03.github.io/expense-tracker",
   "name": "react-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "webpack": "webpack",
-    "serve": "webpack serve"
+    "serve": "webpack serve",
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -35,6 +38,7 @@
     "@reduxjs/toolkit": "^1.9.5",
     "@types/styled-components": "^5.1.26",
     "@types/uuid": "^9.0.3",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.2",
